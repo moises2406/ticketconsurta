@@ -20,12 +20,12 @@ import {
 export function NavIten({ title, numero }: NavItens) {
   return (
     <li>
-      <div>
+      <div >
         {/* /<a> o link va a qui/ */}
         <span className="icon">
           <Iconos numer={numero} key={numero} />
         </span>
-        <span className="title">{title}</span>
+        <span >{title}</span>
       </div>
     </li>
   );

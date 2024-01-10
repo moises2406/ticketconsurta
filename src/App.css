@@ -139,4 +139,53 @@
   border-radius: 100px;
   border: 0.1rem solid rgb(230, 230, 230);
   width: 50px;
+  height: 50px;
+}
+
+.nombre {
+  position: relative;
+  left: 1%;
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-align: end;
+}	
+
+/* =============== CreacionDeNotificacion ================ */
+
+.CreacionDeNotificacion {
+  background-image: linear-gradient(to top, #fad0c4 0%, #ffd1ff 100%);
+  border: 0.1rem solid rgb(116, 116, 116);
+  box-shadow: #0044ff5e 0px 7px 7px 0px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  justify-content: center;
+  align-self: center;
+  margin-bottom: 10%;
+
+}
+.ojo{
+  display: inline-block;
+  position: relative;
+  align-self: center;
+  justify-content: center;
+  padding-top: 5%;
+  
+}
+
+.conten{
+  background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+
+}
+
+.liDelist {
+  align-self: center;
+}
+.liDelist:hover {
+  background: rgba(202, 216, 245, 0.863);
+  display: block;
+  position: relative;
+  align-self: center;
+  border-radius: 100px;
+  text-align: center;
+  height: 100%;
 }
